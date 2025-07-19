@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #c71585;
+}
+
+.semestre {
+  margin-bottom: 30px;
+}
+
+.semestre h2 {
+  color: #db3d88;
+  border-bottom: 2px solid #db3d88;
+  padding-bottom: 5px;
+}
+
+.curso {
+  display: inline-block;
+  margin: 5px;
+}
+
+button {
+  background-color: #ffc0cb;
+  border: 2px solid #c71585;
+  color: #333;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 180px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #f8e0e6;
+  color: #aaa;
+  border-color: #eee;
+  cursor: not-allowed;
+}
+
+button.aprobado {
+  text-decoration: line-through;
+  background-color: #e75480;
+  color: white;
+}
